@@ -2,7 +2,8 @@
 
 require "rest-client"
 require "carrierwave"
-require 'yajl/json_gem'
+# require 'yajl/json_gem'
+require 'json'
 
 require "qy_wechat_api/carrierwave/qy_wechat_api_uploader"
 require "qy_wechat_api/config"
